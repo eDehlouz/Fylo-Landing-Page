@@ -31,10 +31,10 @@ footer{
 }
 
 .bg-quotes{
-  position:absolute;
+  position:relative;
   z-index: 0;
-  left:8%;
-  bottom: 55%
+  right:50%;
+
 }
 .circle{
   width: 10%;
