@@ -1,0 +1,320 @@
+body{
+  background-color: #181F2A;
+  color: #cbcfd3;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position:relative;
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+p{
+  line-height: 1.5;
+}
+footer{
+  text-align: center;
+  background-color: #0C1524;
+}
+
+/* Background Elements */
+
+.bg-curvy{
+  width: 100%;
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+
+.bg-quotes{
+  position:absolute;
+  z-index: 0;
+  left:8%;
+  bottom: 55%
+}
+.circle{
+  width: 10%;
+}
+
+
+/* Header */
+
+.big-header{
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 25px;
+}
+
+.cta-header{
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+
+#Title{
+  padding: 60px 30px 20px;
+  background-color: #1C2431;
+  position: relative;
+  z-index: -1;
+
+}
+
+.nav-item{
+  padding-left:35px;
+  font-size: 1rem;
+}
+
+.navbar-toggle{
+  text-align: left;
+}
+
+.header-img{
+  margin-top: 5%;
+  padding: auto 15%;
+  width: 50%;
+}
+
+.header{
+  padding: 7% 25%;
+  position:relative;
+  z-index: 1;
+}
+
+.header-text{
+  font-size: 1.2rem;
+  padding: 0 10% 3%;
+
+}
+
+.header-btn{
+  padding: 14px 95px;
+  border-radius: 30px;
+  background-color: #57CADF;
+  border-style: none;
+}
+
+.header-btn:focus{
+  outline:0;
+}
+.header-btn:hover{
+  border-style: none;
+  background-color: #339ECC;
+
+}
+
+
+#features{
+  padding: 0 15% 5%;
+}
+
+.feature-col{
+  padding: 4% 8%;
+}
+
+.feature-icon{
+  padding-bottom: 10%;
+}
+
+/* Productivity Section */
+
+.productive-box{
+  padding: 5% 5%;
+}
+
+.productive-img{
+  width: 100%;
+}
+
+.productive-text{
+  padding-top: 8%;
+  padding-left:2%;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.productive-text h1{
+  width: 75%;
+  padding-bottom: 10px;
+}
+
+.productive-link{
+  color: #57CADF;
+  border-bottom: 1px solid #57CADF;
+}
+
+/* Testimonies Section */
+
+#testimonies{
+  padding: 10% 10% 0;
+  position:relative;
+  z-index: 1;
+}
+
+.card{
+  background-color: #1C2431;
+  padding: 40px 25px 30px;
+  border-radius: 8px;
+}
+
+.picture{
+  border-radius: 100%;
+  width: 40px;
+  float:left;
+  margin-right: 10px;
+}
+
+.name{
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.job{
+  font-size: 0.6rem;
+}
+
+/* Call to Action */
+
+#cta{
+  padding: 7% 20% 0;
+}
+
+.cta-box{
+
+  background-color: #1C2431;
+  padding: 50px 5% 30px;
+  border-radius: 8px;
+  position:relative;
+  z-index: 1;
+  top:130px;
+}
+
+.cta-text{
+  margin:0 10%;
+}
+
+.cta-btn{
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: #57CADF;
+  border-style: none;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.cta-btn:focus{
+  outline:0;
+}
+
+.cta-btn:hover{
+  border-style: none;
+  background-color: #339ECC;
+  color: white;
+
+}
+
+.email-input{
+  padding: 12px 28px;
+  border-radius: 30px;
+  margin-right:20px;
+  margin-bottom: 20px;
+  width: 60%;
+  border-style: none;
+}
+
+.email-input:focus{
+  outline:0;
+}
+
+
+/* Footer */
+
+.footer{
+  background-color: #0C1524;
+  padding: 200px 8% 10px;
+  text-align: left;
+  /* position: relative;
+  bottom: 120px; */
+  font-size: 1rem;
+}
+.footer-info{
+  padding: 1rem 0;
+}
+
+.footer-logo{
+  margin-bottom: 1.5rem;
+}
+.footer-icon{
+  float:left;
+  padding-right: 20px;
+}
+.location-text{
+  padding:0 30px;
+}
+.footer-contact-us{
+  padding-left: 50px;
+}
+.footer-about-us{
+  padding-left: 50%;
+}
+.social-media{
+  margin-right: 20px;
+}
+.sm-text{
+  text-align: center;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1220px) and (min-width: 990px){
+  .productive-text{
+    padding-top: 3%;
+  }
+  .productive-text h1{
+    width: 85%;
+  }
+}
+
+@media (max-width: 990px) {
+  .productive-text{
+    text-align:center;
+
+  }
+  .productive-text h1{
+    width: 100%;
+    padding: 0 15%;
+  }
+}
+@media (max-width: 1199px){
+  .footer-contact-us{
+    padding:5% 0;
+  }
+  .footer-about-us{
+    padding: 5% 0 0;
+  }
+  .sm-text{
+    text-align: center;
+  }
+}
+@media (max-width: 1220px){
+  .email-input{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top:50px;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
